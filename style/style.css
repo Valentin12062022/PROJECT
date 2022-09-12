@@ -1,6 +1,6 @@
 /* GLOBAL STYLES */
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 /* HEADER */
 .container {
@@ -10,7 +10,7 @@ body{
 .header {
   margin: 13px auto 15px;
 }
-.flex{
+.flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,12 +21,11 @@ body{
 
 .header-nav {
 }
-.header-ul{
+.header-ul {
   display: flex;
   gap: 62px;
 }
 .header-li {
-   
 }
 
 .header-link {
@@ -52,6 +51,7 @@ body{
   cursor: pointer;
 }
 /* MAIN */
+/* SECTION MAIN */
 .main {
   background: #f6bed9;
   padding: 58px 0 59px;
@@ -100,6 +100,45 @@ body{
   width: 187px;
   margin-left: 9px;
 }
+/* SECTION GROW */
+.grow {
+  margin: 136px auto;
+}
+.grow-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.13;
+  color: #1c1c1c;
+  max-width: 415px;
+}
+.grow-flex {
+  display: flex;
+  gap: 34px;
+}
+.grow-element {
+  max-width: 333px;
+  text-align: center;
+}
+.grow-item {
+  padding: 35px 0 85px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+  border-radius: 0px 0px 7px 7px;
+}
+.grow-pretitle {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 0.85;
+  color: #000000;
+  margin-bottom: 28px;
+}
+.grow-text {
+  font-size: 18px;
+  line-height: 1.22;
+  color: #6f2cff;
+  min-width: 219px;
+  margin: 0 auto;
+}
 /* FOOTER */
 .footer {
   background: #20003c;
@@ -107,13 +146,12 @@ body{
 }
 .footer-nav {
 }
-.footer-ul{
+.footer-ul {
   display: flex;
   gap: 74px;
 }
 
 .footer-li {
-
 }
 
 .footer-link {
