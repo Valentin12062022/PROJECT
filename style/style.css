@@ -15,12 +15,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-.logo {
-}
-
-.header-nav {
-}
 .header-ul {
   display: flex;
   gap: 62px;
@@ -138,6 +132,29 @@ body {
   color: #6f2cff;
   min-width: 219px;
   margin: 0 auto;
+}
+/* SECTION COMMERCE */
+.commerce {
+  margin-bottom: 136px;
+  text-align: center;
+}
+.commerce-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.13;
+  color: #000000;
+  margin-bottom: 79px;
+}
+.commerce-pretitle {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.21;
+  margin: 42px 0 16px;
+}
+.commerce-text {
+  font-size: 15px;
+  line-height: 1.47;
+  max-width: 316px;
 }
 /* FOOTER */
 .footer {
